@@ -1,0 +1,94 @@
+.bg-image {
+	background-image: url('../images/photographer.jpg');
+	height: 600px;
+	width: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.text-absolute {
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	color: #fff;
+	font-size: 30px;
+}
+
+/*pseudo elements*/
+/*.test::before {
+	content: '  \2705';
+}*/
+.test::before {
+	content: " ";
+	background: url(https://www.w3schools.com/css/smiley.gif);
+	width:60px;
+	height: 60px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-color: red;
+	background-position: center;
+}
+.test::after {
+	content: ' ';
+	height: 4px;
+	width: 47px;
+	background-color: #FF7A00;
+	display: inline-block;
+}
+
+/*flex*/
+.left-block {
+	width: 500px;
+	height: 300px;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right-block {
+	width: 500px;
+	height: 300px;
+	background-color: green;
+}
+.wraper-box {
+	display: flex;
+	justify-content: space-around;
+}
+
+/*test*/
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+}
+.wraper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hw-block {
+	width: 371px;
+	height: 374px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.icon {
+	width: 88px;
+	height: 88px;
+	background-color: #325DFF;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hw-test {
+	width: 250px;
+	background-color: yellow;
+	text-align: center;
+}
